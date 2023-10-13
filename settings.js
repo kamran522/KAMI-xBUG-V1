@@ -41,7 +41,7 @@ global.autoread_status = true //auto view status/story
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v3'
+global.typemenu = 'v1'
 
 //reply messages
 global.mess = {
