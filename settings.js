@@ -5,13 +5,13 @@ const chalk = require('chalk')
 //contact details
 global.ownernomer = "923323963788"
 global.ownername = "Kamran Hasil"
-global.ytname = "K A M I"
-global.socialm = "K A M I"
-global.location = "BALOCHISTAN"
+global.ytname = "Kamran Hasil"
+global.socialm = "GitHub: kamran522"
+global.location = "Balochistan"
 
 global.ownernumber = '923323963788'  //creator number
 global.ownername = 'Kamran Hasil' //owner name
-global.botname = 'K A M I ᵇᵘᵍ ᵇᵒᵗ' //name of the bot
+global.botname = 'KAMIxBUG' //name of the bot
 
 //sticker details
 global.packname = 'Sticker By'
@@ -19,10 +19,10 @@ global.author = 'K A M I\n\nContact: +923323963788'
 
 //console view/theme
 global.themeemoji = '🪀'
-global.wm = "KAMI-xBUG-V1 Inc."
+global.wm = "K A M I."
 
 //theme link
-global.link = 'NULL'
+global.link = 'https://chat.whatsapp.com/CKsZELVzMrrIVI9TDqAu8X'
 
 //custom prefix
 global.prefa = ['']
@@ -32,16 +32,16 @@ global.autoRecording = false //auto recording
 global.autoTyping = false //auto typing
 global.autorecordtype = false //auto typing + recording
 global.autoread = false //auto read messages
-global.autobio = false //auto update bio
+global.autobio = true //auto update bio
 global.anti92 = false //auto block +92 
-global.autoread_status = true //auto view status/story
+global.autoread_status = false //auto view status/story
 
 //menu type 
 //v1 is image menu, 
 //v2 is link + image menu,
 //v3 is video menu,
 //v4 is call end menu
-global.typemenu = 'v1'
+global.typemenu = 'v3'
 
 //reply messages
 global.mess = {
